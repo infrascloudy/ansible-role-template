@@ -56,7 +56,7 @@ Requirements
 but optional.
 
 This template includes an ansible-galaxy requirements file that pulls in
-the [infrascloudy.base](https://github.com/infrascloudy/ansible-base) role, used
+the [infrascloudy.ubuntu-base](https://github.com/infrascloudy/ansible-ubuntu-base) role, used
 for configuring basic utilities on a fresh virtual-machine.
 However this is not a hard dependency but a suggestion.
 Users of a role will have their own preferences as to e.g. exactly how `pip`
