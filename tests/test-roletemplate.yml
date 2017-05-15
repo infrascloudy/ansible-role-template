@@ -1,0 +1,7 @@
+- hosts: test
+
+
+  roles:
+    - infrascloudy.base
+    - { role: ../../roletemplate,
+        }
